@@ -49,7 +49,7 @@ public class Player : MonoBehaviour {
 		}
 
 		// pressure
-		// addToPosition.x = addToPosition.x + speed.x*2.0f;
+		addToPosition.x = addToPosition.x + speed.x*2.0f;
 
 		// move player here ... 
 		GetComponent<Rigidbody>().MovePosition(transform.position + addToPosition);

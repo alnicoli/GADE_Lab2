@@ -7,7 +7,7 @@ public class Bullet : MonoBehaviour {
 	float destroyTime = 2.0f;
 
 	void FixedUpdate () {
-		GetComponent<Rigidbody>().MovePosition(transform.position + new Vector3(0.5f,0,0));
+		GetComponent<Rigidbody>().MovePosition(transform.position + new Vector3(1.0f,0,0));
 	}
 
 	private void OnTriggerEnter(Collider other) {
