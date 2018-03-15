@@ -1,4 +1,4 @@
-# GADE_Lab2
+# GADE_Lab3 and GADE_Lab4
 
 This is LAB2 for the GADE course at ZHAW.
 
