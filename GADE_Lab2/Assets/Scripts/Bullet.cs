@@ -12,10 +12,21 @@ public class Bullet : MonoBehaviour {
 
 	private void OnTriggerEnter(Collider other) {
 		Type type = other.gameObject.GetComponent<Type>();
+		Enemy enemyComponent = other.gameObject.GetComponent<Enemy>();
 		
 		if (type != null && type.isDestroyable) {
-			Destroy(other.gameObject);
+			if (enemyComponent != null) {
+				enemyComponent.BeKilled();
+			}
 			Destroy(gameObject);
+		}
+		
+		
+
+		if (enemyComponent != null) {
+			if (!enemyComponent) {
+				
+			}
 		}
 	}
 

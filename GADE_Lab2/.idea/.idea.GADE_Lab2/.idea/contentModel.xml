@@ -16,6 +16,8 @@
           <e p="Bullet.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
+          <e p="EnemyFollower.cs" t="Include" />
+          <e p="EnemySinus.cs" t="Include" />
           <e p="EnemySpawner.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="Type.cs" t="Include" />
